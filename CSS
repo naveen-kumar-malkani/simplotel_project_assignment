@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header-heading-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logos {
+    padding: 15px;
+}
+
+.icon {
+    height: 20px;
+    padding-left: 2px;
+}
+
+.large-image-container {
+    background-image: url("https://i.postimg.cc/3x8jT7CJ/heroimg.jpg");
+    background-size: cover;
+    height: 230px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lorem-button {
+    margin: 20px;
+    width: 140px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(#696868, #3b3a3a);
+}
+
+.para-container {
+    background-color: #9c9999;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+.para {
+    font-size: 9px;
+    text-align: center;
+}
+
+.footer-container {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.lorem-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.image {
+    height: 100px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-para {
+    font-size: 7px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: 80px;
+    font-size: 10px;
+    font-family: "Roboto";
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.container1 {
+    text-align: end;
+}
+
+@media screen and (min-width: 992px) {
+    .logo {
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    .large-image-container {
+        height: 500px;
+    }
+
+    .lorem-button {
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .logos {
+        padding: 25px;
+        padding-top: 35px;
+    }
+
+    .icon {
+        font-size: 20px;
+        padding-left: 2px;
+    }
+
+    .image {
+        height: 150px;
+    }
+
+    .card-para {
+        font-size: 13px;
+    }
+}
